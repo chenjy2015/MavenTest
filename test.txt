@@ -1,2 +1,4 @@
 Git push -u origin master 
 https://github.com/chenjy2015/MavenTest.git
+
+https://raw.githubusercontent.com/chenjy2015/MavenTest/master
