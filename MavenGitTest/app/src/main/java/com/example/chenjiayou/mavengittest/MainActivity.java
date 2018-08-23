@@ -1,7 +1,9 @@
 package com.example.chenjiayou.mavengittest;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.example.mylibrary.StringUtils;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,5 +12,8 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        System.out.println(StringUtils.isNullOrEmpty(""));
+
     }
 }
